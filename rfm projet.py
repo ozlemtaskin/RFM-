@@ -1,8 +1,8 @@
-i<mport pandas as pd
+import pandas as pd
 import datetime as dt
 
 #Load Data
-df_= pd.read_excel(r"C:\Users\hp\PycharmProjects\pythonProject\3. HAFTA\online_retail_II.xlsx", sheet_name ="Year 2010-2011")
+df_= pd.read_excel(r"C:\Users\hp\PycharmProjects\pythonProject\online_retail_II.xlsx", sheet_name ="Year 2010-2011")
 df=df_.copy()
 df.describe()
 
